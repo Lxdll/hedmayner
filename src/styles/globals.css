@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  --background: oklch(0.985 0 0);
+  --foreground: oklch(0.105 0 0);
+  --muted: oklch(0.94 0 0);
+  --muted-foreground: oklch(0.45 0 0);
+  --border: oklch(0.8 0 0);
+  --ring: oklch(0.2 0 0);
+  --radius: 0;
+  --site-gutter: clamp(1rem, 3vw, 2.5rem);
+  --site-width: 100rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --radius-sm: var(--radius);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius);
+  --spacing-site: var(--site-gutter);
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100svh;
+    margin: 0;
+    background: var(--background);
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    background: var(--foreground);
+    color: var(--background);
+  }
+}
+
+@layer components {
+  .page-shell {
+    width: min(100%, var(--site-width));
+    margin-inline: auto;
+    padding-inline: var(--site-gutter);
+  }
+
+  .eyebrow {
+    font-size: 0.625rem;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+
+  .display-title {
+    font-size: clamp(3.5rem, 11vw, 10.5rem);
+    font-weight: 500;
+    letter-spacing: -0.075em;
+    line-height: 0.78;
+  }
+}

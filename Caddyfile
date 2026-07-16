@@ -1,0 +1,31 @@
+(spa) {
+	root * /srv
+	encode zstd gzip
+
+	@immutable path /assets/*
+	header @immutable Cache-Control "public, max-age=31536000, immutable"
+
+	@media path /media/*
+	header @media Cache-Control "public, max-age=86400"
+
+	@html path / *.html /collections* /seen* /shop* /about
+	header @html Cache-Control "no-cache"
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+
+	try_files {path} /index.html
+	file_server
+}
+
+{$DOMAIN:localhost} {
+	import spa
+}
+
+# Container-only endpoint used by Docker's health check. It is not published.
+:8080 {
+	import spa
+}

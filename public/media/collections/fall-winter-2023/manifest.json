@@ -1,0 +1,686 @@
+{
+  "version": 1,
+  "slug": "fall-winter-2023",
+  "title": "Hed Mayner Fall Winter 2023",
+  "season": "Fall Winter",
+  "year": "2023",
+  "sourceName": "WWD",
+  "sourceUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+  "credit": "Courtesy of Hed Mayner",
+  "updatedAt": "2026-07-14T04:19:04.026Z",
+  "imageCount": 32,
+  "images": [
+    {
+      "id": "001",
+      "order": 1,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 01",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "2acdb9bbdfb52e4744b1787834036b5edcefc41eb6ea982d7e2a9db521acfb4f",
+      "src": "/media/collections/fall-winter-2023/001-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/001-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/001-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "order": 2,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 02",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "dc698d6dbd7b6628ee6142460354f617c8a4be7f93fd7fadbee4a81e28110d49",
+      "src": "/media/collections/fall-winter-2023/002-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/002-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/002-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "order": 3,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 03",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "b8b4aca17b75dace2115982cbd468700b1532f473c3d1b3f0a3a57b0e1b4ba6f",
+      "src": "/media/collections/fall-winter-2023/003-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/003-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/003-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "order": 4,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 04",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "c5b0174f4a22fc4389d43bd25f0c648b744381b722330bfc6ef637c466390026",
+      "src": "/media/collections/fall-winter-2023/004-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/004-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/004-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "order": 5,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 05",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "4e3c1d2bb3b7c42736996969892271a412c2074031c05282dd56d75f6aabfa4d",
+      "src": "/media/collections/fall-winter-2023/005-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/005-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/005-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "order": 6,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 06",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "814dbe4511fce359f39610395a3b5ba5f96e57a939350a4a51dc4af7a0b79b3c",
+      "src": "/media/collections/fall-winter-2023/006-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/006-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/006-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "order": 7,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 07",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "53230edac88050f8d080a31466a035362d80b7d0809d03e9824d07f4c3d6a128",
+      "src": "/media/collections/fall-winter-2023/007-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/007-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/007-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "008",
+      "order": 8,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 08",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "2ca03a116dcc89f8dd68e4a1a7137db172851c335509ff69bc88512a11de11af",
+      "src": "/media/collections/fall-winter-2023/008-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/008-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/008-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "order": 9,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 09",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "044634dd96dcc81b345e94a3e3e4e9a2b8be11796aa973eece4890966bd4e1d3",
+      "src": "/media/collections/fall-winter-2023/009-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/009-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/009-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "010",
+      "order": 10,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 10",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "2ec058294b09f14702b72feb115d1b257f10ead3af27fbdbec6d02c95fb51703",
+      "src": "/media/collections/fall-winter-2023/010-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/010-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/010-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "011",
+      "order": 11,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 11",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "5799bed885aa18d328b4b35ef3540d395278f946f1ec22e266fc84554ff3832a",
+      "src": "/media/collections/fall-winter-2023/011-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/011-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/011-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "012",
+      "order": 12,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 12",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "18faaa5535bdbefc7fcd34f7bdbc17de7104335e20c62eb01dc668ce8d03b1ea",
+      "src": "/media/collections/fall-winter-2023/012-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/012-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/012-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "013",
+      "order": 13,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 13",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "ebfe16c11ca715d3dc077dbbf9a62eba32de57287a7fa02db1a9b2a08fb7cb1e",
+      "src": "/media/collections/fall-winter-2023/013-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/013-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/013-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "014",
+      "order": 14,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 14",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "ed9326e1b9ef36bd38a94045099f1160a7c95e0fba08e6dc8e62c90a9740f087",
+      "src": "/media/collections/fall-winter-2023/014-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/014-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/014-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "015",
+      "order": 15,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 15",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "58628bb7b9b548940ea9d2f4747496e1dba65070e316283f056b49b286977574",
+      "src": "/media/collections/fall-winter-2023/015-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/015-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/015-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "016",
+      "order": 16,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 16",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "f1b0c08bfc8f5b9c482be1c9c816b5474882050b503e2855af77fe346a7778d4",
+      "src": "/media/collections/fall-winter-2023/016-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/016-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/016-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "017",
+      "order": 17,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 17",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "9aa941b0081974bea172b872f928a41481aada75b7f5cbfac4d8fca363c826cc",
+      "src": "/media/collections/fall-winter-2023/017-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/017-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/017-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "018",
+      "order": 18,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 18",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "f33b29ef9b379ae8b9003cc54d3a924e0657b4fac70bb3c9236829fe500f070f",
+      "src": "/media/collections/fall-winter-2023/018-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/018-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/018-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "019",
+      "order": 19,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 19",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "8f1db9f3937b0011c7f4086d3a6c3f2ad6a4b77feae468e7fd86d3c80390e71d",
+      "src": "/media/collections/fall-winter-2023/019-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/019-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/019-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "020",
+      "order": 20,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 20",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "9684a3296721cd2f281e8af38b079473e2b15ef73ba00dab9fa85f6bc5da6c94",
+      "src": "/media/collections/fall-winter-2023/020-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/020-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/020-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "021",
+      "order": 21,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 21",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "8ac745eeb5ed88e91bb520d4274808b3ced74f07e5b39a09856a134b5c641dbc",
+      "src": "/media/collections/fall-winter-2023/021-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/021-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/021-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "022",
+      "order": 22,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 22",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "342f5cef7103ee64be6789bbe31522aba2b1d0f5d67a5a29b38972282dd63890",
+      "src": "/media/collections/fall-winter-2023/022-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/022-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/022-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "023",
+      "order": 23,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 23",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "8c5ed3df5177b329266e3e63520b5d3be07f89b085816055bf1a19affed0d838",
+      "src": "/media/collections/fall-winter-2023/023-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/023-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/023-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "024",
+      "order": 24,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 24",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "eb59f065a1b96fcda4c117aa78879ca8fc6c58468ef24185c6766e4b6df2e7aa",
+      "src": "/media/collections/fall-winter-2023/024-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/024-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/024-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "025",
+      "order": 25,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 25",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "e5249030119025fc7660cb75721ade16616d448819ffe145bb8553797d084eed",
+      "src": "/media/collections/fall-winter-2023/025-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/025-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/025-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "026",
+      "order": 26,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 26",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "30f6f27799ebf130d16319d4b21f3a9c2c0250ed0581e55dfebb730310ec9e3d",
+      "src": "/media/collections/fall-winter-2023/026-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/026-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/026-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "027",
+      "order": 27,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 27",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "d95e2d77358b5fa52e65ec7fef2cd7814f3b6ed5f18e96c623857087f63f1dc2",
+      "src": "/media/collections/fall-winter-2023/027-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/027-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/027-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "028",
+      "order": 28,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 28",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "ef53cf03972c863e1a07ac2da2fc8a8ac5232e8a5fecd1c538877c652f8d9aac",
+      "src": "/media/collections/fall-winter-2023/028-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/028-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/028-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "029",
+      "order": 29,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 29",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "b336da08946d7a9eea988bdcac51574593fe2fc8f3ef0e3278ebc8ad80767bf4",
+      "src": "/media/collections/fall-winter-2023/029-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/029-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/029-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "030",
+      "order": 30,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 30",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "b9e9ec40f588a46aab0ecee6f455e97da15123038139a7cb1e62b0712a481bfe",
+      "src": "/media/collections/fall-winter-2023/030-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/030-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/030-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "031",
+      "order": 31,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 31",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "4157c1b222b0ada15bea94085b865e85f8726e88510711ca693c1cf72925d84f",
+      "src": "/media/collections/fall-winter-2023/031-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/031-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/031-1280.webp",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "032",
+      "order": 32,
+      "width": 1280,
+      "height": 1920,
+      "alt": "Hed Mayner Fall Winter 2023 runway look 32",
+      "credit": "Courtesy of Hed Mayner",
+      "sourcePageUrl": "https://wwd.com/fashion-news/shows-reviews/gallery/hed-mayner-mens-fall-1235480453/",
+      "sha256": "5837c83df58134fc1387d381c941928fd1d337dcf9dad9914935d4285cdcd0ea",
+      "src": "/media/collections/fall-winter-2023/032-1280.webp",
+      "sources": [
+        {
+          "src": "/media/collections/fall-winter-2023/032-960.webp",
+          "width": 960
+        },
+        {
+          "src": "/media/collections/fall-winter-2023/032-1280.webp",
+          "width": 1280
+        }
+      ]
+    }
+  ]
+}

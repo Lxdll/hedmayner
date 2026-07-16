@@ -1,0 +1,8 @@
+node_modules
+.pnpm-store
+dist
+.archive
+.DS_Store
+*.local
+.vite
+coverage

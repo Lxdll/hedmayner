@@ -1,0 +1,10 @@
+.git
+.github
+.archive
+.pnpm-store
+.vite
+coverage
+dist
+node_modules
+*.local
+.DS_Store
