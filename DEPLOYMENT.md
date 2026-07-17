@@ -2,7 +2,9 @@
 
 This repository builds a static Vite site into a Caddy image and publishes it to
 `ghcr.io/lxdll/hedmayner`. Pushes to `main` are verified and published. Deployment
-starts automatically after the `DOMAIN` repository variable is configured.
+starts automatically after the `DOMAIN` repository variable is configured. The
+container joins the existing `luxudong_edge` Docker network; the shared Caddy
+container terminates TLS and proxies requests to `hedmayner-web:8080`.
 
 ## 1. Prepare GitHub
 
@@ -16,8 +18,9 @@ variables → Actions**, create these production secrets:
 - `DEPLOY_KNOWN_HOSTS`: the complete output of `ssh-keyscan -H <server-ip>` verified
   against the ECS host key
 
-Create the repository variable `DOMAIN` with the public hostname, without a scheme
-or path. Optionally set `TARGET_PLATFORM` to `linux/arm64`; it defaults to
+Create the repository variable `DOMAIN` with the apex public hostname, without a
+scheme or path. The `www` hostname is redirected permanently to this canonical
+hostname. Optionally set `TARGET_PLATFORM` to `linux/arm64`; it defaults to
 `linux/amd64`.
 
 Do not set `DOMAIN` until the server bootstrap, DNS, and registry login below are
@@ -26,9 +29,10 @@ deployment job.
 
 ## 2. Prepare the ECS server
 
-In the Alibaba Cloud security group and the host firewall, expose TCP 80 and 443
-and UDP 443 publicly. Make SSH reachable by GitHub-hosted runners, but disable SSH
-password and root login and install a rate limiter such as Fail2ban.
+The existing edge proxy owns public TCP 80 and 443 and UDP 443. Do not publish
+ports from the Hedmayner container. Make SSH reachable by GitHub-hosted runners,
+but disable SSH password and root login and install a rate limiter such as
+Fail2ban.
 
 Create a dedicated Ed25519 key pair for Actions. Copy `deploy/bootstrap-server.sh`
 to the server and run it as root:
@@ -50,18 +54,22 @@ printf '%s' "$CR_PAT" | docker login ghcr.io -u Lxdll --password-stdin
 unset CR_PAT
 ```
 
-Confirm the host architecture with `uname -m`: use the default `linux/amd64` for
-`x86_64`, or set the GitHub variable `TARGET_PLATFORM=linux/arm64` for `aarch64`.
+Confirm that the external Docker network `luxudong_edge` exists. The shared edge
+Caddy configuration must proxy `hedmayner.cn` to `hedmayner-web:8080` and redirect
+`www.hedmayner.cn` to the apex hostname. Confirm the host architecture with
+`uname -m`: use the default `linux/amd64` for `x86_64`, or set the GitHub variable
+`TARGET_PLATFORM=linux/arm64` for `aarch64`.
 
 ## 3. DNS and first release
 
-Add an A record for `DOMAIN` pointing to the ECS public IPv4 address. Confirm that
-ports 80 and 443 are not occupied by another service. Once DNS resolves globally,
-set the GitHub `DOMAIN` variable and run **Verify, publish, and deploy** manually,
-or push a new commit to `main`.
+Add an A record for the apex `DOMAIN` pointing to the ECS public IPv4 address and
+a `www` CNAME pointing to the apex hostname. Confirm that ports 80 and 443 are not
+occupied by another service. Once both names resolve globally, set the GitHub
+`DOMAIN` variable and run **Verify, publish, and deploy** manually, or push a new
+commit to `main`.
 
-Caddy obtains and renews the TLS certificate automatically. Certificate data is
-stored in the named `caddy_data` volume and survives container replacement.
+The shared edge Caddy obtains and renews the TLS certificate automatically. Its
+existing certificate volume survives replacement of the Hedmayner container.
 
 ## Rollback and operations
 
@@ -75,7 +83,7 @@ Useful server checks:
 ```sh
 cd /opt/hedmayner
 docker compose ps
-docker compose logs --tail=100 web
+docker compose logs --tail=100 hedmayner
 cat .previous-image-tag
 ```
 

@@ -1,19 +1,16 @@
 name: hedmayner
 
 services:
-  web:
+  hedmayner:
     image: ghcr.io/lxdll/hedmayner:${IMAGE_TAG:?IMAGE_TAG must be set}
     container_name: hedmayner-web
     restart: unless-stopped
-    environment:
-      DOMAIN: ${DOMAIN:?DOMAIN must be set}
-    ports:
-      - "80:80"
-      - "443:443"
-      - "443:443/udp"
-    volumes:
-      - caddy_data:/data
-      - caddy_config:/config
+    expose:
+      - "8080"
+    networks:
+      edge:
+        aliases:
+          - hedmayner-web
     healthcheck:
       test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8080/"]
       interval: 10s
@@ -26,6 +23,7 @@ services:
         max-size: "10m"
         max-file: "3"
 
-volumes:
-  caddy_data:
-  caddy_config:
+networks:
+  edge:
+    name: luxudong_edge
+    external: true

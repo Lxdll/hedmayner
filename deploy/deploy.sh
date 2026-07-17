@@ -5,6 +5,7 @@ readonly APP_DIR="${APP_DIR:-/opt/hedmayner}"
 readonly COMPOSE_FILE="${APP_DIR}/compose.yaml"
 readonly ENV_FILE="${APP_DIR}/.env"
 readonly LOCK_FILE="${APP_DIR}/deploy.lock"
+readonly EDGE_NETWORK="luxudong_edge"
 readonly NEW_TAG="${1:-}"
 readonly DOMAIN_NAME="${2:-}"
 
@@ -20,6 +21,11 @@ fi
 
 if [[ ! -f "${COMPOSE_FILE}" ]]; then
   echo "Missing ${COMPOSE_FILE}" >&2
+  exit 2
+fi
+
+if ! docker network inspect "${EDGE_NETWORK}" >/dev/null 2>&1; then
+  echo "Missing shared Docker network: ${EDGE_NETWORK}" >&2
   exit 2
 fi
 
@@ -62,7 +68,7 @@ rollback() {
   if [[ "${current_tag}" =~ ^sha-[0-9a-f]{7,40}$ ]]; then
     echo "Deployment failed; rolling back to ${current_tag}" >&2
     write_env "${current_tag}"
-    docker compose --project-directory "${APP_DIR}" --env-file "${ENV_FILE}" -f "${COMPOSE_FILE}" pull web
+    docker compose --project-directory "${APP_DIR}" --env-file "${ENV_FILE}" -f "${COMPOSE_FILE}" pull hedmayner
     docker compose --project-directory "${APP_DIR}" --env-file "${ENV_FILE}" -f "${COMPOSE_FILE}" up -d --remove-orphans
     if ! wait_until_healthy; then
       echo "Rollback also failed; manual intervention is required" >&2
@@ -80,7 +86,7 @@ if ! docker compose --project-directory "${APP_DIR}" --env-file "${ENV_FILE}" -f
   exit 1
 fi
 
-if ! docker compose --project-directory "${APP_DIR}" --env-file "${ENV_FILE}" -f "${COMPOSE_FILE}" pull web; then
+if ! docker compose --project-directory "${APP_DIR}" --env-file "${ENV_FILE}" -f "${COMPOSE_FILE}" pull hedmayner; then
   rollback
   exit 1
 fi
@@ -91,7 +97,7 @@ if ! docker compose --project-directory "${APP_DIR}" --env-file "${ENV_FILE}" -f
 fi
 
 if ! wait_until_healthy; then
-  docker compose --project-directory "${APP_DIR}" --env-file "${ENV_FILE}" -f "${COMPOSE_FILE}" logs --tail=100 web >&2 || true
+  docker compose --project-directory "${APP_DIR}" --env-file "${ENV_FILE}" -f "${COMPOSE_FILE}" logs --tail=100 hedmayner >&2 || true
   rollback
   exit 1
 fi

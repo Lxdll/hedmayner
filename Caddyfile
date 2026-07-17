@@ -21,11 +21,7 @@
 	file_server
 }
 
-{$DOMAIN:localhost} {
-	import spa
-}
-
-# Container-only endpoint used by Docker's health check. It is not published.
+# The shared edge Caddy terminates TLS and proxies traffic to this endpoint.
 :8080 {
 	import spa
 }

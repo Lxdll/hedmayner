@@ -134,6 +134,11 @@ jobs:
           curl --fail --silent --show-error --location --retry 6 --retry-all-errors --retry-delay 5 "https://$DOMAIN/" >/dev/null
           curl --fail --silent --show-error --location --retry 3 --retry-all-errors "https://$DOMAIN/collections" >/dev/null
           curl --fail --silent --show-error --location --retry 3 --retry-all-errors "https://$DOMAIN/media/collections/fall-winter-2026/manifest.json" >/dev/null
+          redirect_url="$(curl --fail --silent --show-error --head --retry 3 --retry-all-errors --output /dev/null --write-out '%{redirect_url}' "https://www.$DOMAIN/")"
+          if [[ "$redirect_url" != "https://$DOMAIN/" ]]; then
+            echo "Unexpected www redirect: $redirect_url" >&2
+            exit 1
+          fi
       - name: Roll back after a public verification failure
         if: failure() && steps.deploy.outcome == 'success'
         env:
