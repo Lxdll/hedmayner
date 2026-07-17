@@ -8,8 +8,9 @@ container terminates TLS and proxies requests to `hedmayner-web:8080`.
 
 ## 1. Prepare GitHub
 
-Keep the repository and its container package private. In **Settings → Secrets and
-variables → Actions**, create these production secrets:
+The repository and its container package are public. Keep all deployment
+credentials in **Settings → Secrets and variables → Actions** and create these
+production secrets:
 
 - `DEPLOY_HOST`: the ECS public IPv4 address
 - `DEPLOY_PORT`: the SSH port, normally `22`
@@ -44,15 +45,14 @@ DEPLOY_PUBLIC_KEY='ssh-ed25519 AAAA...' bash bootstrap-server.sh
 This creates the `deploy` user and `/opt/hedmayner`. Membership in the Docker group
 is effectively root-level access, so never reuse this key.
 
-Create a GitHub personal access token (classic) with only `read:packages`, then log
-the deployment user into GHCR once. Avoid placing the token directly in shell
-history:
+Confirm that the deployment user can pull the public image without credentials:
 
 ```sh
-read -rsp 'GHCR token: ' CR_PAT
-printf '%s' "$CR_PAT" | docker login ghcr.io -u Lxdll --password-stdin
-unset CR_PAT
+docker pull ghcr.io/lxdll/hedmayner:latest
 ```
+
+If the package is made private later, create a dedicated GitHub personal access
+token with only `read:packages` and authenticate this deployment user to GHCR.
 
 Confirm that the external Docker network `luxudong_edge` exists. The shared edge
 Caddy configuration must proxy `hedmayner.cn` to `hedmayner-web:8080` and redirect
